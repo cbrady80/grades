@@ -113,7 +113,7 @@ public class studentGrades {
         int average = getScores();
 
         // Display the letter grade.
-        System.out.println("Your grade is: " + computeLetterGrade(average) + computeGradeSign(average));
+        System.out.println("\nYour grade is: " + computeLetterGrade(average) + computeGradeSign(average));
 
     }
 
